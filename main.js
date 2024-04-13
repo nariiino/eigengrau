@@ -1,3 +1,7 @@
+
+
+
+
 const video = document.querySelector(".video")
 const cameraButtom = document.querySelector(".camera")
 const canvas =document.querySelector(".canvas")
@@ -27,9 +31,10 @@ cameraButtom.addEventListener("click", () => {
 
 })
 
-const btn = document.querySelector('.btn');
+const btn = document.querySelectorAll('.btn');
 btn.addEventListener('click', () => {
     btn.style.backgroundColor = '#ffac09';
     btn.style.boxShadow = '0 0 40px #ffac09';
     btn.style.transition = '.5s ease';
 });
+

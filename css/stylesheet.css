@@ -1,24 +1,28 @@
-* {
-    margin: 0;
-    padding: 0
-    box-sizeing: border-box;
-}
+
 
 body{
     
-    background-color: rgb(17, 255, 0);
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(8, 8, 8);
+    color: rgb(221, 248, 226);
+    
 }
 
 .camera {
+    margin-top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     width: 500px;
     height: 400px;
     position: relative;
     border: 5px solid white;
     border-radius: 5px;
+}
+
+.bot2{
+    text-align: center;
+
 }
 
 .video {
@@ -52,7 +56,7 @@ body{
 }
 
 .canvas{
-    display: none;
+   
 }
 
 .effect {
@@ -64,3 +68,63 @@ body{
 .special {
     background-color: blueviolet;
 }
+
+.btn {
+    margin-top: 10px;
+    width: fit-content;
+    height: auto;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 0 40px #7d2ae8;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 0 50px;
+    
+}
+
+.enter {
+    
+    margin-top: 25%;
+    margin-left: 45%;
+    width: fit-content;
+    height: auto;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 0 40px #7d2ae8;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+ 
+
+}
+
+h2 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+ 
+
+}
+
+.contain2
+    
+
+
