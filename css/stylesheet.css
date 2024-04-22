@@ -1,7 +1,6 @@
 
   @import url("https://use.typekit.net/szn1qvi.css");
 
-
 body{
     
     background-color: rgb(8, 8, 8);
@@ -76,7 +75,7 @@ body{
 }
 
 .btn {
-    margin-top: 10px
+    margin-top: 10px;
     width: fit-content;
     height: auto;
     padding: 10px 40px;
@@ -120,16 +119,14 @@ body{
 }
 
 .exit {
-    margin-top: 5%;
-    margin-left: 45%;
     width: fit-content;
     height: auto;
     padding: 10px 40px;
-    background: #1e1e1e;
-    border: 1px solid #fff;
+    background: #4b465d;
+    border: 2px solid #fff;
     outline: none;
-    border-radius: 3px;
-    box-shadow: 0 0 40px #d4f9f7;
+    border-radius: 8px;
+    box-shadow: 0 0 40px #2a40e8;
     font-size: 17px;
     color: #fff;
     letter-spacing: 1px;
@@ -137,6 +134,27 @@ body{
     font-family: "trajan-pro-3", serif;
     font-weight: 400;
     font-style: bold;
+
+}
+
+.o {
+margin-top: 5%;
+margin-left: 45%;
+width: fit-content;
+height: auto;
+padding: 10px 40px;
+background: #1e1e1e;
+border: 1px solid #fff;
+outline: none;
+border-radius: 3px;
+box-shadow: 0 0 40px #d4f9f7;
+font-size: 17px;
+color: #fff;
+letter-spacing: 1px;
+cursor: pointer;
+font-family: "trajan-pro-3", serif;
+font-weight: 400;
+font-style: bold;
 
 }
 
@@ -215,5 +233,9 @@ h3 {
     gap: -19px;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 20px;
+    font-family: "edita", serif;
+    font-weight: 400;
+    font-style: normal;
 
   }
