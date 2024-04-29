@@ -12,21 +12,44 @@ body{
     
 }
 
+
+
+
 .camera {
     margin-top: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 80%;
     position: relative;
     border: 5px solid white;
     border-radius: 5px;
 }
 
 .bot2{
+   
+    font-size: 200px;
+    color: rgb(122, 5, 5);
+    font-size: 70px;
+    
+
+}
+
+.follow {
+    margin-top: 5% ;
+    font-size: 100px;
+    color: rgb(234, 252, 234);
+    font-size: 70px;
+    
+}
+
+
+h3 {
+    margin-top: 1%;
     text-align: center;
+    
 
 }
 
@@ -79,16 +102,17 @@ body{
     width: fit-content;
     height: auto;
     padding: 10px 40px;
-    background: #4b465d;
+    background: #000000;
     border: 1px solid #fff;
     outline: none;
     border-radius: 5px;
-    box-shadow: 0 0 40px #1100ff;
+    box-shadow: 0 0 40px #85aa96;
     font-size: 17px;
     color: #fff;
     letter-spacing: 1px;
     cursor: pointer;
     margin: 0 50px;
+    font-size: 30px;
     font-family: "trajan-pro-3", serif;
     font-weight: 400;
     font-style: bold;
@@ -111,6 +135,7 @@ body{
     color: #fff;
     letter-spacing: 1px;
     cursor: pointer;
+    font-size: 70px;
     font-family: "trajan-pro-3", serif;
     font-weight: 400;
     font-style: bold;
@@ -119,19 +144,21 @@ body{
 }
 
 .exit {
+    margin-top: 160%;
     width: fit-content;
     height: auto;
     padding: 10px 40px;
-    background: #4b465d;
+    background: #000000;
     border: 2px solid #fff;
     outline: none;
     border-radius: 8px;
-    box-shadow: 0 0 40px #2a40e8;
+    box-shadow: 0 0 40px #7caf97;
     font-size: 17px;
     color: #fff;
     letter-spacing: 1px;
     cursor: pointer;
     font-family: "trajan-pro-3", serif;
+    font-size: 30px;
     font-weight: 400;
     font-style: bold;
 
@@ -139,7 +166,7 @@ body{
 
 .o {
 margin-top: 5%;
-margin-left: 45%;
+margin-left: 46%;
 width: fit-content;
 height: auto;
 padding: 10px 40px;
@@ -152,6 +179,7 @@ font-size: 17px;
 color: #fff;
 letter-spacing: 1px;
 cursor: pointer;
+font-size: 40px;
 font-family: "trajan-pro-3", serif;
 font-weight: 400;
 font-style: bold;
@@ -231,11 +259,15 @@ h3 {
     flex-direction: row;
     align-items: center;
     gap: -19px;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
     font-family: "edita", serif;
     font-weight: 400;
     font-style: normal;
 
+  }
+
+  .control{
+    float: left;
   }
