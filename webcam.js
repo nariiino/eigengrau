@@ -9,8 +9,8 @@ async function setupCamera() {
         'audio': false,
         'video': {
           facingMode: 'user',
-          height: {ideal:500},
-          width: {ideal: 500},
+          height: {ideal:300},
+          width: {ideal: 300},
         },
       });
     video.srcObject = stream;
@@ -23,7 +23,7 @@ async function setupCamera() {
     });
 }
 
-function drawWebcamContinuous(){
+function drawWebcamContinuous() {
     ctx.drawImage(video,0,0);
     requestAnimationFrame(drawWebcamContinuous);
 }
