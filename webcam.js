@@ -1,5 +1,7 @@
 
-// Camera setup function - returns a Promise so we have to call it in an async function
+
+
+
 async function setupCamera() {
     // Find the video element on our HTML page
     video = document.getElementById('video');
